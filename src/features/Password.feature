@@ -19,7 +19,6 @@ Feature: Password Validator
         And the password has special character
         When the password is validated
         Then the password is invalid
-        Then the password is invalid
 
     @sample_password @invalid
     Scenario: Password without uppercase

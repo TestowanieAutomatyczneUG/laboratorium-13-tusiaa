@@ -8,8 +8,8 @@ def step_impl(context):
 
 @given("the password has {number} characters")
 def step_impl(context, number):
-    lengh = int(number) - len(context.sample_password)
-    context.sample_password += "a" * lengh    
+    lenght = int(number) - len(context.sample_password)
+    context.sample_password += "a" * lenght
 
 @given("the password has {condision}")
 def step_impl(context, condision):
